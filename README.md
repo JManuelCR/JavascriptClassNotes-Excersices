@@ -1,1 +1,1 @@
-# JavascriptClassNotes-Excersices
+# JavascriptClassNotes-Exercises
