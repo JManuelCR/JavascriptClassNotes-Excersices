@@ -90,3 +90,37 @@ whatEvenNumbersHas([4, 2, 3, 48, 12, 9, 14]);
  * dado en los parametros en un arreglo también dado en sus parámetros
  */
 
+function howManyTimesElementApeear(inputArray = [], repeatElement) {
+    let repeatElementCount = 0;
+    for (let i = 0; i <= inputArray.length - 1; i++) {
+        if (repeatElement == inputArray[i]) {
+          repeatElementCount += 1;
+        }
+      }
+      console.log(`El elemento ${repeatElement} se repite ${repeatElementCount} veces en el arreglo`);
+      return;
+}
+
+howManyTimesElementApeear([4, 4, 2, 3, 4, 6, 5, 4],3);
+
+
+/** Crear una función que recibe un arreglo de strings y um string, la funcion devuelve true si ese string 
+ * se encuentra en el arreglo y false si no se encuentra
+ */
+
+ function findStringIntoTheArray(inputArray = ['Hola', 'soy', 'Manu', 'y', 'soy', 'koder'], stringToSearch = 'Hola') {
+  let isTheStringIntoTheArray = false;
+  for (let i = 0; i <= inputArray.length - 1; i++) {
+      if (stringToSearch == inputArray[i]) {
+        isTheStringIntoTheArray = true ;
+      }
+    }
+    console.log(isTheStringIntoTheArray)
+    return;
+}
+
+findStringIntoTheArray(['hola', 'como', 'estas', '?'], '?');
+
+
+
+/**Crear un arreglo que parta un arrerglo por la mitad y retorne la segunda mitad del arreglo  */
