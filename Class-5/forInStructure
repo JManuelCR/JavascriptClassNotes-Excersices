@@ -1,0 +1,23 @@
+// for in
+let persona = {
+    nombre: 'Manu',
+    edad: 30,
+    sexo: 'masculino',
+}    
+for(const llave in persona){
+    console.log(persona[llave]);
+}
+
+// el for-in sirve para objetos
+// hay dos formas de acceder a un objeto
+let obj = {
+    name: 'Manu';
+}
+
+obj.name;
+
+
+
+// for of
+
+let frutasPreferidas = ['manzana an¿marilla', 'platano', 'mang', ]
