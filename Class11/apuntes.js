@@ -18,3 +18,4 @@ function suma(numero1, numero2) {
 
 console.log(suma (10,10));
 
+for(let i = 0; i < 10; i++);
